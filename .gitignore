@@ -24,3 +24,7 @@ python-playground-env/
 
 #node modules
 node_modules/
+
+#pycatche bytecode to ignore
+__pycache__/
+*.pyc
