@@ -76,5 +76,9 @@ def update(id, update_field, update_value):
     return data
 
 
-create()
+# create()
+# delete("ecef4f9c-6dab-44b8-acc8-ba1d6fc4c8b2")
+# update("ac65afc5-e683-4de9-9b88-c8b3a316b29e","description","This is good product.")
+# get_all()
+# get_one("59c822f2-85f6-4c2e-92c3-8ef54782e2da")
 
