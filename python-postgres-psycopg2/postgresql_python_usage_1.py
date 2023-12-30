@@ -54,7 +54,7 @@ def get_all():
 
 def delete(id):
     cursor = db_con.cursor()
-    delete_query = "DELETE from \"Product\" where id='{id}'".format(id=id)
+    delete_query = "DELETE from product where id='{id}'".format(id=id)
     cursor.execute(delete_query)
     data = "delete success"
     print(data)
