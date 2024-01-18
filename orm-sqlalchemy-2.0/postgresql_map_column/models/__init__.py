@@ -1,4 +1,4 @@
-from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column,sessionmaker, scoped_session
+from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy import func
 
