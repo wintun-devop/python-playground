@@ -60,8 +60,26 @@ def delete(id)->None:
         # print("error",e)
         raise e
 
+def update(id:str,name:str,model_no:str,description:str)->dict:
+    id=id
+    try:
+        result=db_session.query(Product).filter_by(id=id).first()
+        if result:
+            result.name=name
+            result.model_no=model_no
+            result.description=description
+            db_session.add(result)
+            db_session.commit()
+            res = {"id":str(result.id),"name":result.name,"model_no":result.model_no,"description":result.description}
+            print(res)
+            return res
+    except SQLAlchemyError as e:
+        # print("error",e)
+        raise e
+
 # create("Cloud Core CCR CCR2004-16G-2S+PC","CCR2004-16G-2S-t650","Approximately 200'000 hours at 25C")
 # get_one("91556503-ae7d-4479-8090-a01760780140")
 # get_all()
 # delete("ac4a68ad-fa2c-499f-b836-ecd260ca50be")
 """ update   """
+update("64a186cd-6da1-4351-aec2-d0f0f9a321f3","CCR CCR2004-16G-2S+PC","CCR2004-16G-2S-t125","Update")
