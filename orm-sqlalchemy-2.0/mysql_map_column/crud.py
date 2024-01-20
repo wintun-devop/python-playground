@@ -77,9 +77,9 @@ def update(id:str,name:str,model_no:str,description:str)->dict:
         # print("error",e)
         raise e
 
-# create("Cloud Core CCR CCR2004-16G-2S+PC","CCR2004-16G-2S-t650","Approximately 200'000 hours at 25C")
-# get_one("91556503-ae7d-4479-8090-a01760780140")
+# create("CCR CCR2004-16G-2S+PC","CCR2004-16G-2S-t25","Approximately 200'000 hours at 25C")
+# get_one("d28a3597-acfd-461c-bdaa-27f57c302e58")
 # get_all()
-# delete("ac4a68ad-fa2c-499f-b836-ecd260ca50be")
+# delete("d28a3597-acfd-461c-bdaa-27f57c302e58")
 """ update   """
-update("64a186cd-6da1-4351-aec2-d0f0f9a321f3","CCR CCR2004-16G-2S+PC","CCR2004-16G-2S-t125","Update")
+# update("abd4ecc2-ed07-4e94-8a23-72fa1f66155b","CCR CCR2004-16G-2S+PC","CCR2004-16G-2-5","Update")
