@@ -12,7 +12,7 @@ class Product(Base):
     name:Mapped[str] = mapped_column(nullable=False)
     model_no:Mapped[str] = mapped_column(nullable=False, unique=True)
     description:Mapped[str] = mapped_column(nullable=False)
-    created: Mapped[datetime.datetime] = mapped_column(server_default=func.now())
+    created: Mapped[datetime.datetime] = mapped_column(default=func.now())
     updated: Mapped[datetime.datetime] = mapped_column(nullable=True,onupdate=func.now())
     
     
@@ -22,6 +22,6 @@ class User(Base):
     email:Mapped[str] = mapped_column(nullable=False,unique=True)
     password:Mapped[str] = mapped_column(nullable=False)
     profile:Mapped[str] = mapped_column(nullable=False,default=str("profile.png"))
-    created: Mapped[datetime.datetime] = mapped_column(server_default=func.now())
+    created: Mapped[datetime.datetime] = mapped_column(default=func.now())
     updated: Mapped[datetime.datetime] = mapped_column(nullable=True,onupdate=func.now())
     
