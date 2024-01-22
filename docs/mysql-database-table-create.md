@@ -38,3 +38,6 @@ PRIMARY KEY(id)
 ```
 INSERT INTO product (id,name,model_no,description,arrival) VALUES (uuidv4(),'Mikrotik L009UiGS-RM','L009UiGS-RM','L009 is more than just a router.','1/2/2012');
 ```
+```
+INSERT INTO product (id,name,model_no,description) VALUES ('5414599e-70e7-4e3c-ba32-ae1707f1b461','Mikrotik L009UiGS-RM','L009UiGS-RM','L009 is more than just a router.');
+```

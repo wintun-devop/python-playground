@@ -77,9 +77,9 @@ def update(id:str,name:str,model_no:str,description:str)->dict:
         # print("error",e)
         raise e
 
-# create("CCR CCR2004-16G-2S+PC","CCR2004-16G-2S-t25","Approximately 200'000 hours at 25C")
-# get_one("d28a3597-acfd-461c-bdaa-27f57c302e58")
+# create("CCR CCR2004-16G-2S+PC","CCR2004-16G-2S-t1","Approximately 200'000 hours at 25C")
+# get_one("963e8a15-ce3d-4840-99e4-0aa9898064e9")
 # get_all()
-# delete("d28a3597-acfd-461c-bdaa-27f57c302e58")
+# delete("ed7dcc5e-b810-4ae1-8ae3-03379fadf5dd")
 """ update   """
-# update("abd4ecc2-ed07-4e94-8a23-72fa1f66155b","CCR CCR2004-16G-2S+PC","CCR2004-16G-2-5","Update")
+# update("963e8a15-ce3d-4840-99e4-0aa9898064e9","CCR CCR2004-16G-2S+PC","CCR2004-16G-2-5","Update")
