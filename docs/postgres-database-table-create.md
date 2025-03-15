@@ -4,7 +4,7 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 ```
 ### Database Table Creation
 ```
-CREATE TABLE "Product" (
+CREATE TABLE "products" (
 id uuid DEFAULT uuid_generate_v4(),
 name text not null,
 model_no text not null unique,
