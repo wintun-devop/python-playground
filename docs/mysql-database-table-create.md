@@ -25,12 +25,13 @@ RETURN LOWER(
 
 ### Database Table Creation
 ```
-CREATE TABLE Product (
+CREATE TABLE products (
 id  CHAR(36) NOT NULL,
 name text NOT NULL,
 model_no varchar(255) NOT NULL UNIQUE,
 description text NOT NULL,
 arrival varchar(255) NOT NULL,
+created TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 PRIMARY KEY(id)
 );
 ```
