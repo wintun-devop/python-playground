@@ -1,10 +1,10 @@
 import pymysql
 import datetime,json
 
-db_host="127.0.0.1"
-db_user="dbadmin"
-db_password="Abc123Abc123"
-db_name="csv_export_test"
+db_host="your_db_host"
+db_user="your_db_user"
+db_password="your_db_password"
+db_name="your_db_name"
 
 date_time = datetime.datetime.now()
 date_time_utc =datetime.datetime.now(datetime.UTC)
