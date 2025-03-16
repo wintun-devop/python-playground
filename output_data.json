@@ -1,0 +1,29 @@
+[
+    {
+        "id": "uiafef-fusfilgg",
+        "name": "Mikrotik L012UiGS-RM",
+        "model_no": "L012UiGS-RM",
+        "description": "L012UiGS-RMはrouterより良いです。",
+        "arrival": "2025-03-15",
+        "qty": 22,
+        "created": "2025-03-15T16:23:48"
+    },
+    {
+        "id": "uiafef-fusfklff",
+        "name": "Mikrotik L011UiGS-RM",
+        "model_no": "L011UiGS-RM",
+        "description": "L011 is more than just a router.",
+        "arrival": "2025-03-15",
+        "qty": 30,
+        "created": "2025-03-15T16:23:32"
+    },
+    {
+        "id": "uiefaf-fusfklff",
+        "name": "Mikrotik L009UiGS-RM",
+        "model_no": "L009UiGS-RM",
+        "description": "L009 is more than just a router.",
+        "arrival": "2025-03-15",
+        "qty": 15,
+        "created": "2025-03-15T16:23:14"
+    }
+]
