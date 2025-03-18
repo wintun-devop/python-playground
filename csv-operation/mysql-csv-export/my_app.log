@@ -1,0 +1,29 @@
+2025-03-18 21:27:23,486 — Testing info mess message. — INFO — This is an info message.
+2025-03-18 21:31:29,435 — a — INFO — This is an info message.
+2025-03-18 21:32:11,023 — root — INFO — This is an info message.
+2025-03-18 21:32:25,995 — root — INFO — This is an info message.
+2025-03-18 21:39:01,271 — root — INFO — info mess
+2025-03-18 21:39:01,271 — root — DEBUG — debug
+2025-03-18 21:39:01,271 — root — DEBUG — debug
+2025-03-18 21:39:35,516 — root — INFO — info mess
+2025-03-18 21:39:35,516 — root — ERROR — error log
+2025-03-18 21:39:35,516 — root — ERROR — error log
+2025-03-18 21:39:40,780 — root — INFO — info mess
+2025-03-18 21:39:40,780 — root — ERROR — error log
+2025-03-18 21:39:40,780 — root — ERROR — error log
+2025-03-18 21:40:53,777 — root — INFO — info mess
+2025-03-18 21:40:53,794 — root — ERROR — error log
+2025-03-18 21:40:53,794 — root — ERROR — error log
+2025-03-18 21:40:53,794 — root — WARNING — warm log
+2025-03-18 21:40:53,794 — root — WARNING — warm log
+2025-03-18 21:40:53,794 — root — WARNING — warm log
+2025-03-18 21:42:18,403 — root — ERROR — error log 124
+2025-03-18 21:42:18,403 — root — ERROR — error log 124
+2025-03-18 21:42:18,403 — root — WARNING — warm log 897
+2025-03-18 21:42:18,403 — root — WARNING — warm log 897
+2025-03-18 21:42:18,403 — root — WARNING — warm log 897
+2025-03-18 21:45:20,736 — root — ERROR — error log 124
+2025-03-18 21:45:20,736 — root — ERROR — error log 124
+2025-03-18 21:45:20,736 — root — WARNING — warm log 897
+2025-03-18 21:45:20,736 — root — WARNING — warm log 897
+2025-03-18 21:45:20,736 — root — WARNING — warm log 897
