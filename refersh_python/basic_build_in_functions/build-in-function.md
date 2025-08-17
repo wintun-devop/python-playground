@@ -22,3 +22,15 @@
 - help() – Access documentation
 - eval() – Evaluate string as Python expression
 - exec() – Execute dynamic Python code
+
+
+### print function basic syntax
+```
+print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+```
+- Parameters
+    - *objects: One or more values to print. Can be strings, numbers, lists, etc.
+    - sep: Separator between objects (default is a space ' ').
+    - end: What to print at the end (default is newline '\n').
+    - file: Where to send the output (default is sys.stdout, but can be a file).
+    - flush: Whether to forcibly flush the output buffer (default is False).
