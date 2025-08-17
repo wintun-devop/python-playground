@@ -28,3 +28,18 @@ node_modules/
 #pycatche bytecode to ignore
 __pycache__/
 *.pyc
+
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# env files (can opt-in for committing if needed)
+.env*
